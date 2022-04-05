@@ -1,0 +1,10 @@
+{
+  "name": "youtube-traversy-grid-crash-course-2022",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
