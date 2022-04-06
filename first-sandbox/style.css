@@ -16,6 +16,11 @@ body {
   max-width: 960px;
   margin: 100px auto;
   padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .item {
