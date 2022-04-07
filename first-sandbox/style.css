@@ -19,8 +19,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  align-items: end;
-  grid-auto-rows: minmax(200px, auto);
 }
 
 .item {
@@ -29,4 +27,20 @@ body {
   font-size: 20px;
   padding: 20px;
   border: skyblue 1px solid;
+}
+
+.item:nth-of-type(2) {
+  background: #000;
+  grid-column: 2 / 3;
+}
+
+.item:nth-of-type(5) {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.item:nth-of-type(9) {
+  background: #933;
+  grid-row: 2 / 4;
 }
